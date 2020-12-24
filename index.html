@@ -22,8 +22,13 @@
 					<section class="intro">
 						<header>
 							<h1>Chiyu Wang</h1>
-							<p>In between the lines of 
-								student and researcher, science and engineering</pebsite>
+							<!-- <p>In between the lines of 
+							<br>student and researcher</p> -->
+							<p> In between the lines of 
+								<br> 
+								<span style="color: #fff"> <span class="typing" style="font-weight: 300; color:(255, 255, 255)"></span>
+							</p>
+						
 							<ul class="actions">
 								<li><a href="#first" class="arrow scrolly"><span class="label"></span></a></li>
 							</ul>
@@ -39,10 +44,13 @@
 							<h2>About Me</h2>
 						</header>
 						<div class="content">
-							<p>I'm Chiyu Wang, a senior student studying Computer Science and Applied Mathematics at University of California, Berkeley. I want to utilize my skills and knowledge to make a meaningful impact on the world. I enjoy engaging with people by teaching CS and building projects. 
-								I am currently a software development engineer intern at Amazon Web Services (AWS) Shanghai AI Lab, Shanghai, China. 
-								<br>The best way to contact me is through my email: <a href="mailto:wcy_james@berkeley.edu?Subject=Hello%20Chiyu" target="_top">wcy_james@berkeley.edu</a> </p>
-							Here is the link to my resume: <a href="static/Chiyu_Wang_resume.pdf" class="button" view>Resume</a>
+							<p>I am Chiyu Wang, a senior student studying Computer Science and Applied Mathematics at University of California, Berkeley. I want to utilize my skills and knowledge to make a meaningful impact on the world. I enjoy engaging with people by teaching CS and building projects. 
+								I am currently a SDE intern at Amazon Web Services (AWS) Shanghai AI Lab, Shanghai, China, exploring deep learning on graphs.  
+								<br>
+								<br>The best way to contact me is through my email: <a href="mailto:wcy_james@berkeley.edu?Subject=Hello%20Chiyu" target="_top">wcy_james@berkeley.edu</a> 
+								<br> Here is the link to my resume: <a href="static/Chiyu_Wang_resume.pdf" class="button" view>Resume</a> 
+								<br>
+								<br>I am also a portrait photographer. I will update my photography porfolio soon. :)</p>
 							</ul>
 						</div>
 					</section>
@@ -561,6 +569,16 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script src="assets/js/typed.js/typed.min.js"></script>
+			<script type="text/javascript">
+				var typed = new Typed('.typing',{
+				  strings: ["Student and Researcher", "Engineering and Arts", "An ML Enthusiast", "A Developer", "A Photographer"],
+				  loop: true,
+				  typeSpeed: 80,
+				  backSpeed: 40
+				});
+			  </script>
 
 	</body>
 </html>
